@@ -1,4 +1,4 @@
-package src.normalexample;
+package normalexample;
 
 import java.util.HashSet;
 

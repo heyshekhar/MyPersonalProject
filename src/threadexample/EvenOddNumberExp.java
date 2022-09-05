@@ -3,8 +3,7 @@ package src.threadexample;
 public class EvenOddNumberExp {
 	private static Object object;
 	
-	static class EvenNumber extends Thread
-	{
+	static class EvenNumber extends Thread {
 		Object object;
 		public EvenNumber(Object object){this.object = object;}
 		public void run()

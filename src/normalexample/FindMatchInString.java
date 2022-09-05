@@ -1,9 +1,8 @@
-package src.normalexample;
+package normalexample;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.commons.lang3.ArrayUtils;
 
 public class FindMatchInString {
 
@@ -127,20 +126,16 @@ public class FindMatchInString {
 		return count;
 	}
 
-	public static void findMatchingStringTwo()
-	{
+	public static void findMatchingStringTwo() {
 		String name = "qwertyuiwertop";
 		String pattern = "werererto";
 		int a=0;
 		String matching=null;
-		for(int i=0; i<pattern.length(); i++)
-		{
-			if(name.contains(pattern.substring(a, i)))
-			{
+		for(int i=0; i<pattern.length(); i++) {
+			if(name.contains(pattern.substring(a, i))) {
 				matching=pattern.substring(a,i+1);
 			}
-			else
-			{
+			else {
 				a=i;
 			}
 		}
@@ -152,8 +147,7 @@ public class FindMatchInString {
 		
 		StringBuilder sb = new StringBuilder(name);
 		
-		for(int i=0; i<matching.length(); i++)
-		{
+		for(int i=0; i<matching.length(); i++) {
 			sb.deleteCharAt(index);
 		}
 		
@@ -161,8 +155,7 @@ public class FindMatchInString {
 	}
 
 	
-	public static int FindMatching(int j, String name, String match, int length)
-	{
+	public static int FindMatching(int j, String name, String match, int length) {
 
 		int num = 0;
 		for (int i = 0; i < match.length(); i++) {

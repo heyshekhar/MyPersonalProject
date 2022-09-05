@@ -1,8 +1,8 @@
 package immutable;
 
-public final class Student {
+//public final class Student {
 
-//public class Student {
+public class Student {
 
 	private final Integer id;
 	private final Address address;

@@ -1,4 +1,4 @@
-package src.normalexample;
+package normalexample;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -14,7 +14,7 @@ public class AnagramExp {
 		
 		/*
 		 * An anagram of a string is another string that contains the same characters,
-		 * only the order of characters can be different. For example, “abcd” and “dabc”
+		 * only the order of characters can be different. For example, ï¿½abcdï¿½ and ï¿½dabcï¿½
 		 * are an anagram of each other.
 		 */
 		String Fname = "Shekhar";

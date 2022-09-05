@@ -1,4 +1,4 @@
-package src.normalexample;
+package normalexample;
 
 import java.util.Arrays;
 import java.util.List;
@@ -104,5 +104,6 @@ public class StringExp {
 		String s = String.valueOf("reverse string using array : "+name.toCharArray());
 		
 	}
+	
 
 }

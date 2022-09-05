@@ -8,25 +8,25 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 
 
 public class ExecutorServiceExample {
 	
-	private static Logger logger = LogManager.getLogger(ExecutorServiceExample.class);
+//	private static Logger logger = LogManager.getLogger(ExecutorServiceExample.class);
 
 	public static void main(String[] args) {
 		
-//		threadBlockingQueue();
+		threadBlockingQueue();
 		
 //		executorExecuteExample(); 
 		
-		executorSubmitExample(); 
+//		executorSubmitExample(); 
 	}
 
 	private static void executorSubmitExample() {
-		logger.info("Executor submit example...");
+//		logger.info("Executor submit example...");
 		ExecutorService executorService = Executors.newFixedThreadPool(10);
 		//old way to execute thread pool
 //		for (int i = 0; i <= 10; i++) {
@@ -62,7 +62,7 @@ public class ExecutorServiceExample {
 	}
 
 	private static void executorExecuteExample() {
-		logger.info("Executor execute example...");
+//		logger.info("Executor execute example...");
 		ExecutorService executorService = Executors.newFixedThreadPool(10);
 		
 		//old way to execute thread pool
@@ -70,7 +70,7 @@ public class ExecutorServiceExample {
 //			executorService.execute(new ExecuteExample());
 		}
 		
-		logger.info("Execute secon example...");
+//		logger.info("Execute secon example...");
 		for(int i=0; i<11; i++) {
 			executorService.execute(() -> {
 				try {
@@ -87,7 +87,7 @@ public class ExecutorServiceExample {
 	}
 
 	private static void threadBlockingQueue() {
-		logger.info("example blocking queue...");
+//		logger.info("example blocking queue...");
 		ExecutorService exRunAsyncService = Executors.newFixedThreadPool(10);
 		BlockingQueue<String> bq = new ArrayBlockingQueue<>(3);
 		ExecutorProducer producer = new ExecutorProducer(bq);
