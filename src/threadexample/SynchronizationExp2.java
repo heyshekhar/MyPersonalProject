@@ -1,4 +1,4 @@
-package src.threadexample;
+package threadexample;
 
 public class SynchronizationExp2 {
 

@@ -9,9 +9,11 @@ public class StringUtils {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		convertListToString();
+		convertListToString();
 		
 		convertStringToList();
+		
+		
 	}
 
 	private static void convertStringToList() {
@@ -30,7 +32,7 @@ public class StringUtils {
 		
 		String opStList = stList.stream().map(m -> String.valueOf(m)).collect(Collectors.joining(","));
 		
-		System.out.println(opStList);
+		System.out.println("string : " +opStList);
 		
 	}
 
