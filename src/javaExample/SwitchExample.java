@@ -1,4 +1,4 @@
-package z_eci;
+package javaExample;
 
 public class SwitchExample {
 
