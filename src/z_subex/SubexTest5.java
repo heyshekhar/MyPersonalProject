@@ -1,4 +1,4 @@
-package src.z_subex;
+package z_subex;
 
 import java.util.ArrayList;
 import java.util.List;

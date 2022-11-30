@@ -13,13 +13,17 @@ public class ClonableExp {
 
 }
 
-class ClonableTest implements Cloneable //if you not implement cloneable interface and you provied the clone method 
-{										//then it will throw clonenotsupported exception
+class ClonableTest implements Cloneable {
 	int id;
 	String name;
 	
-	//if you implement the Cloneable and if you not provided the clone method then also it will throw error like method clone
-	// is not visible
+	/*
+	 * if you implement the Cloneable and if you not provided the clone method then
+	 * also it will throw error like method clone is not visible
+	 * 
+	 * if you not implement cloneable interface and you provied the clone method 
+	 * then it will throw clonenotsupported exception
+	 */
 	public Object clone() throws CloneNotSupportedException
 	{
 		return super.clone();

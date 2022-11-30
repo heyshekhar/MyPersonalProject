@@ -1,4 +1,4 @@
-package src.z_subex;
+package z_subex;
 
 import java.io.BufferedReader;
 import java.io.File;

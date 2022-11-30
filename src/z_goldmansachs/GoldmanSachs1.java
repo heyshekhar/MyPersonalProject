@@ -1,4 +1,4 @@
-package src.z_goldmansachs;
+package z_goldmansachs;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

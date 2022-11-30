@@ -1,4 +1,4 @@
-package src.z_samsung;
+package z_samsung;
 
 public class Samsung1 {
 
